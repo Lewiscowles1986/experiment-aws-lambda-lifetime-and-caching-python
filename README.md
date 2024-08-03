@@ -45,7 +45,7 @@ done
 
 ## Sample output
 
-I've saved the output of the logs in the logs-example.zip by using `zip logs-example.zip logs/` in the hopes it might help budget strained folks interested in the output.
+I've saved the output of the logs in the logs-example.zip by using `zip -r logs-example.zip logs/` in the hopes it might help budget strained folks interested in the output.
 
 Note that the sample output was manual commands, until it became the loop example above at 11:33:00
 The loop iterated a few times, which is why you see it go back to 00 in seconds. There is no magic there, just fast fingers, and restarting with `<CTRL>`+`<C>`, then `<Cursor (Up)>` then `<Return / Enter>`.
