@@ -1,0 +1,6 @@
+package/
+.terraform/
+*.lock.hcl
+*.tfstate*
+*.zip
+logs/
