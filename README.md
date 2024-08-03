@@ -18,3 +18,12 @@ I Asserted that AWS Lambda can:
 - cli `zip` command compatible with:
   - `zip <zipfile-path.zip> <list of file names>`
   - `zip -ur ../<zipfile-path.zip> ./*`
+
+## Usage
+
+1. Initialize terraform and apply
+```
+terraform init
+terraform apply
+```
+
