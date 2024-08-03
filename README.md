@@ -14,7 +14,7 @@ To check this, I'm monitoring the PID, as well as the time, and trying to call s
 
 I have no dependencies on SSM or anything else, because this is a simple app. YMMV as we do not control the scheduler, re-balancing of machines etc. That is part of what is good about serverless.
 
-As stated above, I was wrong about lambdas over 1 hour old being reaped. Perhaps this is part of AWS coordination, which in a prior test run had looked like it happened. Honestly I cannot remember if it's a day, or they just run forever; but it's definitely over 1 hour.
+As stated above, I was wrong about lambdas over 1 hour old being reaped. Although the second set of logs (where I remembered to use `-r` flag, to actually recurse the folder) shows this. Perhaps this is part of AWS coordination, which in a prior test run had looked like it happened. Honestly I cannot remember if it's a day, or they just run forever; but it's definitely not within the control of the user; and I've seen both ~1 hour and over that.
 
 ## Pre-requisites
 
