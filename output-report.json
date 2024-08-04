@@ -4631,14 +4631,14 @@
             "uuid": "57cca0a3-b78c-48c2-b346-4efb1d666a91"
         }
     ],
-    "pid": {
+    "pids": {
         "values": [
             8,
             9
         ],
         "count": 2
     },
-    "uuid": {
+    "uuidsGeneratedAtBoot": {
         "values": [
             "00f4dc15-e329-4467-8386-db32c1bec58f",
             "f761d62e-0bad-4f1d-bd0d-62f2f3ae557c",
@@ -4651,7 +4651,7 @@
         ],
         "count": 8
     },
-    "time": {
+    "cachedTimes": {
         "values": [
             "2024-08-03T20:45:14.867818+00:00",
             "2024-08-04T01:06:57.992328+00:00",
